@@ -38,7 +38,7 @@
         return arr
     }
 
-##插入排序(N2/4)
+##插入排序O(N2/4)
 
     func insertionSort<T: Comparable> (oArr: [T]) -> [T] {
         var arr = oArr
